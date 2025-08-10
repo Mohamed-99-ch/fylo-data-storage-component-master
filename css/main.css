@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(229, 57%, 11%);
+    height: 100vh;
+    background-image: url(../images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position-y: 150%;
+    background-size: contain;
+    font-family: "Raleway";
+    position: relative;
+}
+
+.container {
+    width: 70%;
+    height: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.container div {
+    background-color: hsl(228, 56%, 26%);
+    padding: 20px;
+}
+
+.container .fy {
+    width: 40%;
+    height: 100%;
+    border-top-right-radius: 100px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container .fy > img {
+    width: 200px;
+    height: 60px;
+}
+
+.container .fy .icons {
+    width: 100%;
+    padding: 0;
+    padding-top: 20px;
+}
+
+.container .fy .icons img {
+    background-color: hsl(229, 57%, 11%);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.container .rng {
+    width: 55%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.container .rng > div {
+    color: white;
+    padding: 10px 0px;
+}
+
+.container .rng .top span {
+    font-weight: bold;
+}
+
+.container .rng .center {
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.container .rng .center .rang {
+    width: 70%;
+    height: 100%;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: inherit;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.container .rng .center .rang .circle {
+    height: 15px;
+    width: 15px;
+    padding: 0;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.container .rng .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .rng .bottom div {
+    padding: 0;
+}

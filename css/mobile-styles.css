@@ -1,0 +1,29 @@
+@media (max-width: 375px) {
+    body {
+        width: 100%;
+        height: fit-content;
+        background-image: url(../images/bg-mobile.png);
+        background-repeat: no-repeat;
+        background-position-y: 100%;
+        background-size: cover;
+    }
+
+    .container {
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , 25%);
+        height: fit-content;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .container .fy,
+    .container .rng {
+        width: 100%;
+    }
+
+    .container .fy {
+        margin-bottom: 20px;
+    }
+}
